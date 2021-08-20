@@ -8,13 +8,5 @@ from webdriver_manager.chrome import ChromeDriverManager
 driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.implicitly_wait(10)
 #driver.maximize_window()
-driver.get('http://www.londonfreelance.org/courses/frames/index.html')
+driver.get('https://admin:admin@the-internet.herokuapp.com/basic_auth')
 #driver.switch_to.frame(2)
-#driver.switch_to.frame('main')
-frame_element = driver.find_element(By.NAME,'main')
-driver.switch_to.frame(frame_element)
-
-heade_value = driver.find_element(By.CSS_SELECTOR,"body > h2").text
-
-driver.switch_to.parent_frame()
-print(heade_value)
