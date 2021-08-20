@@ -1,0 +1,16 @@
+1629465616488	geckodriver	INFO	Listening on 127.0.0.1:64306
+1629465619522	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\SANGFR~1\\AppData\\Local\\Temp\\rust_mozprofileqNNZkq"
+1629465619849	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Sangfroid Solutions\\AppData\\Local\\Temp\\rust_mozprofileqNNZkq\\search.json.mozlz4", (void 0)))
+1629465624090	Marionette	INFO	Listening on port 64314
+1629465624329	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1629465638082	Marionette	INFO	Stopped listening on port 64314
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1629465843070	geckodriver	INFO	Listening on 127.0.0.1:59183
+1629465846188	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\SANGFR~1\\AppData\\Local\\Temp\\rust_mozprofiledxOa0Z"
+1629465846676	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Sangfroid Solutions\\AppData\\Local\\Temp\\rust_mozprofiledxOa0Z\\search.json.mozlz4", (void 0)))
+1629465851439	Marionette	INFO	Listening on port 59191
+1629465851488	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1629465858131	Marionette	INFO	Stopped listening on port 59191
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
