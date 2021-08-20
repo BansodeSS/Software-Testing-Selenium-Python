@@ -21,3 +21,5 @@ driver.get('https://app.hubspot.com/login')
 
 user_name= driver.find_element(By.ID,'username')
 user_name.send_keys('test@gmail.com')
+
+#print(dir(webdriver))
